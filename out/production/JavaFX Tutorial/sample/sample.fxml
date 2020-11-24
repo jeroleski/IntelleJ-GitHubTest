@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0" style="-fx-background-color: rgb(30,30,30);" HBox.hgrow="ALWAYS">
+         <children>
+            <AnchorPane VBox.vgrow="ALWAYS">
+               <children>
+                  <Button fx:id="helloworld" mnemonicParsing="false" onMouseClicked="#helloWorld" text="HelloWorld" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane VBox.vgrow="ALWAYS">
+               <children>
+                  <Button fx:id="knap2" mnemonicParsing="false" onMouseClicked="#labelTest" text="EtEllerAndetSjovt" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane VBox.vgrow="ALWAYS">
+               <children>
+                  <Button fx:id="textfieldbutton" mnemonicParsing="false" onMouseClicked="#textFieldTest" text="TestTextField" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: rgb(275,42,80);" HBox.hgrow="ALWAYS">
+         <children>
+            <Label fx:id="label" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+            <AnchorPane VBox.vgrow="ALWAYS">
+               <children>
+                  <TextField fx:id="textfield" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+               </children>
+            </AnchorPane>
+         </children></VBox>
+   </children>
+</HBox>
